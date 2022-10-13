@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    font-family: 'Open sans', sans-serif;
+    line-height: 1.4;
+    color: #000;
+}
+ul{
+    list-style: none;
+}
+p{
+    margin: 5px 0;
+    max-width: 100%;
+}
+#starbucks-logo{
+    width: 50px;
+    height: 50px;
+  
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.navbar{
+    width: 100%;
+    height:auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 1px;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    .navbar ul{
+        display:flex;
+        align-items: center;
+    }
+    .navbar li{
+        margin: 0 15px;
+        font-weight: bold;
+    }
+    .navbar-nav-left{
+        flex: 1;
+        margin-left: 20px;
+    }

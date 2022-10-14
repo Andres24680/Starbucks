@@ -66,3 +66,7 @@ a{
     color:white;
     background-color: black;
 }
+.btn-light-outline{
+    border-color: black;
+    color:#000;
+}

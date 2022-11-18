@@ -145,7 +145,7 @@ a{
 .py-lg{
     padding: 40px 0;
 }
-@media(max-width: 960px){
+@media(max-width: 600px){
  .text-xl{
     font-size: 30px;
  }
